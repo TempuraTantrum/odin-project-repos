@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 600px;
+  /* my addition */
+  margin: auto;
+  padding-top: 100px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+/* my answer */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+
+.content {
+display: flex;
+flex-direction: column;
+justify-items: center;
+align-items: center;
+margin-top:50em ;
+}
+
+button {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+ color: grey;
+}
+
+li {
+  list-style: none;
+}
+
+.left-links, .right-links {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+ gap: 16px;
+
+}
+
+.right-links{
+margin-right: 16px;
+}
+
+.left-links{
+  margin-right: 16px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  padding :8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #eee;
+}
