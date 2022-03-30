@@ -1,14 +1,25 @@
+body {
+   min-height: 100vh;
+}
+
 header {
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 24px;
     font-family: sans-serif;
+    height: 25vh;
 }
+.header {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
-    
 }
 
 ul {
@@ -19,9 +30,12 @@ ul {
     gap:16px;
   }
 
-  .header {
-        padding: 8px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+  .hero {
+      padding: 8px;
+      font-size: 48px;
+      font-weight: bolder;
+      color: #f9faf8;
   }
+
+
+  
