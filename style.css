@@ -1,5 +1,7 @@
 body {
-   min-height: 100vh;
+   max-height: 100vh;
+   margin: 0;
+    
 }
 
 header {
@@ -7,7 +9,11 @@ header {
     color: #f9faf8;
     font-size: 24px;
     font-family: sans-serif;
-    height: 25vh;
+    height: 33%;
+    margin: auto;
+    min-width: auto;
+    padding-left: 15%;
+    padding-bottom: 10%;
 }
 .header {
     padding: 8px;
@@ -35,7 +41,19 @@ ul {
       font-size: 48px;
       font-weight: bolder;
       color: #f9faf8;
+    min-width: auto;
+    width: 50%;
   }
 
-
-  
+.subtext {
+    padding: 8px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+  button {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
