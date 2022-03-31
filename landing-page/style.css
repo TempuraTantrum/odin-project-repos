@@ -45,6 +45,11 @@ ul {
     width: 50%;
   }
 
+  img {
+    max-width: 35%;
+    height: auto;
+  }
+
 .subtext {
     padding: 8px;
     color: #e5e7eb;
