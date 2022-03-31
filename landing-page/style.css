@@ -16,7 +16,7 @@ header {
     padding-bottom: 10%;
 }
 .header {
-    padding: 8px;
+    padding: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,26 +37,30 @@ ul {
   }
 .container {
   display: flex;
-
+  max-height:fit-content;
 }
+
+
   .hero {
       padding: 8px;
       font-size: 48px;
       font-weight: bolder;
       color: #f9faf8;
     min-width: auto;
-    width: 50%;
   }
 
   img {
     max-width: 400px;
     height: auto;
+    padding: 0px;
+    margin: 0px;
   }
 
 .subtext {
     padding: 8px;
     color: #e5e7eb;
     font-size: 18px;
+    max-width: 60%;
 }
   button {
     background: royalblue;
@@ -64,4 +68,6 @@ ul {
     color: white;
     padding: 8px 16px;
     border-radius: 8px;
+    width: 150px;
+    font-size: 18px;
   }
