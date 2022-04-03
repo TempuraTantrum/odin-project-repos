@@ -52,7 +52,7 @@ ul {
     min-width: auto;
   }
 
-  img {
+  .jelly {
     max-width: 400px;
     height: auto;
     padding: 0px;
@@ -90,7 +90,7 @@ ul {
   height: 300px;
 }
 
-    img {
+    .item {
       width: 100px;
       height: 100px;
       padding-bottom: 8px;
