@@ -141,8 +141,15 @@ ul {
   border-radius: 8px;
   color: #e5e7eb;
   font-family: sans-serif;
+  font-size: 18px;
+  padding: 20px;
+  display: flex;
+ font-weight: lighter;
 }
-
+ .call {
+   font-weight: 900;
+   font-size: 25px;
+ }
 
 
 
