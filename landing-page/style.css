@@ -75,6 +75,8 @@ ul {
     font-size: 18px;
   }
 
+/* Some Random Info & icons 2nd box */
+
   .title {
       font-size: 36px;
       font-weight: 900;
@@ -96,29 +98,7 @@ ul {
       padding-bottom: 8px;
     }
 
-
-
-
-
-
-
-
-
-
-
-    /* FOOTER */
-    footer {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #1f2937;
-  color: #f9faf8;
-}
+/* thor quote box */
 
 .box {
   background-color:#e5e7eb;
@@ -145,4 +125,39 @@ ul {
   font-family: sans-serif;
   font-weight: bold;
   margin: none;
+}
+
+/* Call to Action block */
+
+.block{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action {
+  background-color: #3882f6;
+  border-radius: 8px;
+  color: #e5e7eb;
+  font-family: sans-serif;
+}
+
+
+
+
+
+
+    /* FOOTER */
+    footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #f9faf8;
 }
