@@ -135,7 +135,7 @@ ul {
   justify-content: center;
   align-items: center;
 }
-
+ /* blue box */
 .action {
   background-color: #3882f6;
   border-radius: 8px;
@@ -152,25 +152,22 @@ ul {
   align-items: center;
 }
 
+h3 {
+  margin: 0;
+}
+
+/* second sentence in blue box */
 .call >p {
 margin: 0;
 padding-top: 4px;
 }
-
- h3 {
-     margin: 0;
- }
 
  /* second sign up button */
  .second {
    border-color: #e5e7eb;
    }
  
-  
-  
-
-
-    /* FOOTER */
+      /* FOOTER */
     footer {
   position: relative;
   bottom: 0;
