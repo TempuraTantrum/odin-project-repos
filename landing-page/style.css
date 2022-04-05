@@ -143,23 +143,31 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: lighter;
-  padding: 20px;
+  padding: 30px;
+  width: 50rem;
+  height: 100px;
   display: flex;
-  flex-direction: column;
- width: 60rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
- .call {
-   font-weight: 700;
-   font-size: 25px;
-   margin: 0;
+
+.call >p {
+margin: 0;
+padding-top: 4px;
+}
+
+ h3 {
+     margin: 0;
  }
 
+ /* second sign up button */
  .second {
    border-color: #e5e7eb;
-
- }
-
-
+   }
+ 
+  
+  
 
 
     /* FOOTER */
